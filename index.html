@@ -2,88 +2,77 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="portfolio.html"/>
-    
-    <title> Portfolio</title>
+    <title>Codesoft | Code.Create.Succeed </title>
   </head>
   <body>
     <nav>
-      <div class="nav__content">
-        <div class="logo"><a href="#">Nisarg</a></div>
-        <label for="check" class="checkbox">
-          <i class="ri-menu-line"></i>
-        </label>
-        <input type="checkbox" name="check" id="check" />
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Resume</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+      <div class="nav__logo">
+        <div>C</div>
+        Code.Create.Succeed
       </div>
-    </nav>
-    <section class="section">
-      <div class="section__container">
-        <div class="content">
-          <p class="subtitle">HELLO</p>
-          <h1 class="title">
-            I'm <span>Nisarg<br />a</span> Web Developer
-          </h1>
-          <p class="description">
-            Welcome to my web developer portfolio! I'm Nisarg, a skilled and
-            creative web developer with a passion for creating beautiful,
-            responsive, and user-friendly websites. I've worked on a variety of
-            web projects, ranging from personal blogs to e-commerce platforms.
-          </p>
-          <div class="action__btns">
-            <button class="hire__me">Hire Me</button>
-            <button class="portfolio"><a href="portfolio.html"></a>Portfolio</button>
+      <ul class="nav__socials">
+        <li>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="ri-pinterest-line"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="ri-instagram-line"></i></a>
+        </li>
+      </ul>
+      <div class="nav__contact">
+        <div class="nav__contact__card">
+          <span><i class="ri-phone-line"></i></span>
+          <div>
+            <p>Call Us</p>
+            <h4>+01 98765 4321</h4>
           </div>
         </div>
-        <div class="image">
-          <img src="images.png" alt="profile" />
+        <div class="nav__contact__card">
+          <span><i class="ri-mail-line"></i></span>
+          <div>
+            <p>Email Us</p>
+            <h4>contact@codsoft.in</h4>
+          </div>
         </div>
       </div>
-    </section>
-  </body>
-  <footer class="footer" id="contact">
-    <div class="section__container footer__container">
-      <div class="footer__col">
-        <h2>Nisarg</h2>
-        <p>talatinisarg5@gmail.com</p>
-        <p>+91 7433909240</p>
+    </nav>
+    <header class="header__container">
+      <div class="header__image">
+        <img src="clogo.png" alt="header" />
       </div>
-      <div class="footer__col">
-        <p>Subscribe to Newsletter</p>
-        <form action="#">
-          <input type="text" placeholder="Enter your email" />
-          <button>Send</button>
+      <div class="header__content">
+        <h1>Single Platform For All Your <span>Learning</span> Needs.</h1>
+        <p>
+            Codesoft are IT services and IT consultancy that specializes in creating innovative solutions for businesses. We are passionate about technology and believe in the power of software to transform the world. Our internship program is just one of the ways in which we are investing in the future of the industry.
+        </p>
+        <form action="/">
+          <div class="input__row">
+            <div class="input__group">
+              <span><i class="ri-search-line"></i></span>
+              <input type="text" placeholder="Search for Interships" />
+            </div>
+            <div class="input__group">
+              <span><i class="ri-arrow-down-s-line"></i></span>
+              <input type="text" placeholder="Categories" />
+            </div>
+          </div>
+          <button type="submit">Search Now</button>
         </form>
-        <div class="footer__socials">
-          <a href="#"><i class="ri-facebook-fill"></i></a>
-          <a href="#"><i class="ri-twitter-fill"></i></a>
-          <a href="#"><i class="ri-linkedin-fill"></i></a>
-        </div>
       </div>
-      <div class="footer__col">
-        <h4>Our Services</h4>
-        <a href="#home">Home</a>
-        <a href="#services">Services</a>
-        <a href="#projects">Portfolio</a>
-        <a href="#blogs">Blogs</a>
-      </div>
-    </div>
-    <div class="footer__bar">
-      Copyright © 2024 Web Developer. All rights reserved.
-    </div>
-  </footer>
+    </header>
 
-</html>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html> 
